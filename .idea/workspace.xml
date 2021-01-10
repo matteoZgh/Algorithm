@@ -41,6 +41,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmer\Code\Java\Algorithm" />
+      <recent name="D:\Programmer\Code\Java\Algorithm\.idea" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -88,7 +94,7 @@
       <workItem from="1610271816169" duration="760000" />
       <workItem from="1610272657329" duration="1021000" />
       <workItem from="1610273902691" duration="284000" />
-      <workItem from="1610274340423" duration="2797000" />
+      <workItem from="1610274340423" duration="3106000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1610276166109</created>
@@ -104,7 +110,42 @@
       <option name="project" value="LOCAL" />
       <updated>1610277079936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1610277231804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610277231804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1610277237165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610277237165</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1610277316035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610277316035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1610277364072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610277364072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1610277392716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610277392716</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +212,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1610276038690" />
-    <state x="213" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610277128615">
+    <state x="213" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610277257704">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="213" y="97" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1610277128615" />
+    <state x="213" y="97" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1610277257704" />
     <state x="454" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610276204042">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
