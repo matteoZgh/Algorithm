@@ -9,7 +9,7 @@ import java.util.Random;
  * 工具常量
  * 工具函数
  */
-public class AlgorithmUtil {
+public class AlgorithmUtils {
 
     public static int[] getDisorderNums(int len, int bound) {
         int[] result = new int[len];

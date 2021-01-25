@@ -1,6 +1,6 @@
 package sort.impl;
 
-import queue.Heap;
+import datastructure.queue.Heap;
 import sort.Sort;
 
 public class HeapSort implements Sort {

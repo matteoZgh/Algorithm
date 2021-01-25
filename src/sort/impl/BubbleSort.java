@@ -1,7 +1,7 @@
 package sort.impl;
 
 import sort.Sort;
-import utils.AlgorithmUtil;
+import utils.AlgorithmUtils;
 
 public class BubbleSort implements Sort {
 
@@ -16,7 +16,7 @@ public class BubbleSort implements Sort {
             flag = false;
             for (int j = 0; j < i ; j++) {
                 if (nums[j] > nums[j + 1]) {
-                    AlgorithmUtil.swap(nums, j, j + 1);
+                    AlgorithmUtils.swap(nums, j, j + 1);
                     flag = true;
                 }
             }

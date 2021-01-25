@@ -1,9 +1,10 @@
 import sort.impl.*;
-import utils.AlgorithmUtil;
+import utils.AlgorithmUtils;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = AlgorithmUtil.getDisorderNums(90000, 10000);
-        AlgorithmUtil.check(nums, new HeapSort());
+        int[] nums = AlgorithmUtils.getDisorderNums(10000, 10000);
+        AlgorithmUtils.check(nums, new BubbleSort());
     }
+
 }

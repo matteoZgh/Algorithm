@@ -1,7 +1,7 @@
 package sort.impl;
 
 import sort.Sort;
-import utils.AlgorithmUtil;
+import utils.AlgorithmUtils;
 
 public class QuickSort implements Sort {
 
@@ -24,9 +24,9 @@ public class QuickSort implements Sort {
             while(l <= r && nums[l] <= nums[point]) l++;
             while(l <= r && nums[r] > nums[point]) r--;
             if (l < r)
-                AlgorithmUtil.swap(nums, l ,r);
+                AlgorithmUtils.swap(nums, l ,r);
         }
-        AlgorithmUtil.swap(nums, l, point);
+        AlgorithmUtils.swap(nums, l, point);
         return l;
     }
 

@@ -1,7 +1,7 @@
 package sort.impl;
 
 import sort.Sort;
-import utils.AlgorithmUtil;
+import utils.AlgorithmUtils;
 
 public class SelectionSort implements Sort {
 
@@ -23,7 +23,7 @@ public class SelectionSort implements Sort {
             }
             //将最小值放到数组首位
             if (minIndex != i)
-                AlgorithmUtil.swap(nums, minIndex, i);
+                AlgorithmUtils.swap(nums, minIndex, i);
         }
     }
 
