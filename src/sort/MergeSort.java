@@ -1,15 +1,12 @@
-package sort.impl;
+package sort;
 
-import sort.Sort;
+public class MergeSort {
 
-public class MergeSort implements Sort {
-
-    @Override
     public void sort(int[] nums) {
         merge(nums, 0, nums.length);
     }
 
-    private static void merge(int[] nums, int left, int right) {
+    private void merge(int[] nums, int left, int right) {
         if (right - left <= 1)
             return;
         int mid = left + right >> 1;
@@ -18,7 +15,7 @@ public class MergeSort implements Sort {
         merge0(nums, left, mid, right);
     }
 
-    private static void merge0(int[] nums, int left, int mid, int right) { ;
+    private void merge0(int[] nums, int left, int mid, int right) { ;
         int i = left, j = mid, k = 0;
         int[] tmp = new int[right - left];
 

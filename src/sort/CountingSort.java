@@ -1,15 +1,8 @@
-package sort.impl;
+package sort;
 
-import sort.Sort;
+public class CountingSort {
 
-public class CountingSort implements Sort {
-
-    @Override
     public void sort(int[] nums) {
-        counting(nums);
-    }
-
-    private static void counting(int[] nums) {
         int max = Integer.MIN_VALUE;
 
         for (int num : nums) {

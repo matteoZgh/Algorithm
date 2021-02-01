@@ -1,21 +1,18 @@
-package sort.impl;
+package sort;
 
-import sort.Sort;
+public class ShellSort {
 
-public class ShellSort implements Sort {
-
-    @Override
     public void sort(int[] nums) {
         shellByKnuth(nums);
     }
 
-    private static void shell(int[] nums) {
+    private void shell(int[] nums) {
         for (int gap = nums.length >> 1; gap > 0; gap >>= 1) {
             shell0(nums, gap);
         }
     }
 
-    private static void shellByKnuth(int[] nums) {
+    private void shellByKnuth(int[] nums) {
         int gap = 1;
 
         while (gap < nums.length / 3) {
@@ -27,7 +24,7 @@ public class ShellSort implements Sort {
         }
     }
 
-    private static void shell0(int[] nums, int gap) {
+    private void shell0(int[] nums, int gap) {
         for (int i = gap; i < nums.length; i++) {
             int tmp = nums[i], j = i;
             for (; j > gap - 1 && tmp < nums[j - gap]; j -= gap) {

@@ -1,13 +1,10 @@
-package sort.impl;
-
-import sort.Sort;
+package sort;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class BucketSort implements Sort {
+public class BucketSort {
 
-    @Override
     public void sort(int[] nums) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;

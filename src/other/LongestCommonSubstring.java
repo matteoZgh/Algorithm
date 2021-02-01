@@ -2,11 +2,7 @@ package other;
 
 public class LongestCommonSubstring {
 
-    public static void main(String[] args) {
-        System.out.println(longestCommonSubstring("asd", "asc"));
-    }
-
-    public static int longestCommonSubstring(String s1, String s2) {
+    public int longestCommonSubstring(String s1, String s2) {
         int[][] dp = new int[s1.length() + 1][s2.length() + 1];
 
         for (int i = 1; i <= s1.length(); i++) {

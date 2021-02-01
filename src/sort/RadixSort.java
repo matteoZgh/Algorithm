@@ -1,17 +1,10 @@
-package sort.impl;
-
-import sort.Sort;
+package sort;
 
 import java.util.Arrays;
 
-public class RadixSort implements Sort {
+public class RadixSort {
 
-    @Override
     public void sort(int[] nums) {
-        radix(nums);
-    }
-
-    private static void radix(int[] nums) {
         int[] count = new int[11];
         int[] result = new int[nums.length];
 

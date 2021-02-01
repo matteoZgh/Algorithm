@@ -1,11 +1,9 @@
-package sort.impl;
+package sort;
 
 import datastructure.queue.Heap;
-import sort.Sort;
 
-public class HeapSort implements Sort {
+public class HeapSort {
 
-    @Override
     public void sort(int[] nums) {
         Integer[] tmp = new Integer[nums.length];
         for (int i = 0; i < nums.length; i++) {

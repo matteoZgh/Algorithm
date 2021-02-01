@@ -1,16 +1,8 @@
-package sort.impl;
+package sort;
 
-import sort.Sort;
-import utils.AlgorithmUtils;
+public class SelectionSort {
 
-public class SelectionSort implements Sort {
-
-    @Override
     public void sort(int[] nums) {
-        selection(nums);
-    }
-
-    private static void selection(int[] nums) {
         //最小值的位置
         int minIndex;
         for (int i = 0; i < nums.length - 1; i++) {
@@ -23,8 +15,14 @@ public class SelectionSort implements Sort {
             }
             //将最小值放到数组首位
             if (minIndex != i)
-                AlgorithmUtils.swap(nums, minIndex, i);
+                swap(nums, minIndex, i);
         }
+    }
+
+    private void swap(int[] nums, int a, int b) {
+        int tmp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = tmp;
     }
 
 }
