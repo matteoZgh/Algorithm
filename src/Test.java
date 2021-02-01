@@ -2,12 +2,11 @@ import sort.QuickSort;
 
 import java.util.Arrays;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
-        int[] nums = new int[]{2,3,1,6,5,9,8,0,4};
-        QuickSort quickSort = new QuickSort();
-        quickSort.sort(nums);
+        int[] nums = new int[]{2,1,3,6,5,9,0,8,4,7};
+        QuickSort sort = new QuickSort();
+        sort.sort(nums);
         System.out.println(Arrays.toString(nums));
     }
-
 }
