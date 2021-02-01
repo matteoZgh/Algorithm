@@ -1,11 +1,13 @@
-import checker.SortChecker;
 import sort.QuickSort;
-import algorithm.Algorithm;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = Algorithm.getDisorderNums(100, 100);
-        Algorithm.run(QuickSort.class, new SortChecker(), nums);
+        int[] nums = new int[]{2,3,1,6,5,9,8,0,4};
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort(nums);
+        System.out.println(Arrays.toString(nums));
     }
 
 }
