@@ -15,6 +15,7 @@
   - GCD（辗转相除法）
   - LongestCommonSubstring（最长公共子序列）
   - Shuffle（洗牌算法）
+  - ContainsString（字符串是否包含某字符串）
 - search（查找）
   - BinarySearch（二分查找）
 - sort（排序）
