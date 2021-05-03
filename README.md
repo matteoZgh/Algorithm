@@ -10,6 +10,8 @@
 - datastructure（数据结构）
   - queue（队列）
     - Heap（堆 / 优先队列）
+  - tree
+    - BinaryTree（二叉树）
 - other（其他）
   - FindKthLargest（找到倒数第K个数）
   - GCD（辗转相除法）
