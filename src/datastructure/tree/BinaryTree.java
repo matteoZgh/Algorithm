@@ -1,16 +1,14 @@
 package datastructure.tree;
 
-import java.lang.reflect.Parameter;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.function.BiConsumer;
-import java.util.function.Consumer;
-import java.util.function.Function;
 
 public class BinaryTree<T> {
     private BinaryTreeNode<T> root;
 
-    public BinaryTree() {}
+    public BinaryTree() {
+    }
 
     public BinaryTree(BinaryTreeNode<T> root) {
         this.root = root;
@@ -46,10 +44,10 @@ public class BinaryTree<T> {
         Queue<BinaryTreeNode<T>> queue = new LinkedList<>();
         queue.offer(root);
         int level = 0, size = 0;
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             BinaryTreeNode<T> node = queue.poll();
-            if(node.getLeft() != null) queue.offer(node.getLeft());
-            if(node.getRight() != null) queue.offer(node.getRight());
+            if (node.getLeft() != null) queue.offer(node.getLeft());
+            if (node.getRight() != null) queue.offer(node.getRight());
             System.out.print(node.getVal());
             size++;
             if (Math.pow(2, level) == size) {
