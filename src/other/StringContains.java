@@ -2,7 +2,7 @@ package other;
 
 import java.util.Objects;
 
-public class ContainsString {
+public class StringContains {
     public boolean contains(String origin, String target) {
         if (Objects.equals(origin, target)) {
             return true;
